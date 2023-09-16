@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container label{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.container input{
+    border-radius: 5px;
+    border: 1px solid #eee;
+    outline: none;
+    padding: 10px 15px;
+    color: #000;
+}
+
+.container input:hover{
+    background-color: #ece3e3;
+}

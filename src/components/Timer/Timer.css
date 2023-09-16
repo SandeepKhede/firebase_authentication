@@ -1,0 +1,35 @@
+/* Timer.css */
+.timer {
+    text-align: center;
+    font-family: 'Digital', sans-serif;
+}
+
+.timer.work {
+    color: #00b894;
+    /* Green for work timer */
+}
+
+.timer.break {
+    color: #d63031;
+    /* Red for break timer */
+}
+
+.clock {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.controls button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #2980b9;
+}
